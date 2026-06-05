@@ -151,7 +151,7 @@ Benefits:
 
 ### Real-World Example
 
-Suppose a healthcare company such as Pfizer stores patient information in MySQL.
+Suppose a healthcare company such as Major Medical Company stores patient information in MySQL.
 
 Without SSL:
 
