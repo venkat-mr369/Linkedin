@@ -385,6 +385,3 @@ A: MySQL uses Group Replication/InnoDB Cluster, whereas MariaDB uses Galera Clus
 
 
 
-
-#EMR
-#EHR
