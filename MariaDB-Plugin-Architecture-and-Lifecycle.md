@@ -355,7 +355,7 @@ MariaDB:
 
 ---
 
-### DBA Interview Questions
+### Interview Questions
 
 Q: What is a MySQL plugin?
 
