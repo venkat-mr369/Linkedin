@@ -63,8 +63,7 @@ Application
 Example:
 
 ```sql
-INSERT INTO customers
-VALUES (101,'Ramya');
+INSERT INTO customers VALUES (101,'Ramya');
 ```
 
 Client sends COMMIT.
@@ -210,8 +209,7 @@ Manual tracking required.
 GTID Replication:
 
 ```sql
-CHANGE REPLICATION SOURCE TO
-SOURCE_AUTO_POSITION=1;
+CHANGE REPLICATION SOURCE TO SOURCE_AUTO_POSITION=1;
 ```
 
 Replica automatically identifies missing transactions.
