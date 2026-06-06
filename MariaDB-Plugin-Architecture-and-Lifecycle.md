@@ -1,11 +1,10 @@
 ### MySQL / MariaDB Plugin Architecture and Lifecycle
 
-<img width="1237" height="1253" alt="mysqlmariadb arch" src="https://github.com/user-attachments/assets/e4386c19-a03a-4790-9441-a8c5e1993d17" />
-
-
 Database platforms such as MySQL and MariaDB are designed to be extensible. Instead of modifying the database source code, 
 administrators can use plugins to add new capabilities such as authentication methods, audit logging, storage engines, replication technologies, 
 password validation, encryption, and performance enhancements.
+
+<img width="1237" height="1253" alt="mysqlmariadb arch" src="https://github.com/user-attachments/assets/e4386c19-a03a-4790-9441-a8c5e1993d17" />
 
 ### What is a Plugin?
 
