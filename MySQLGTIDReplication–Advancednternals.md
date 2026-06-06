@@ -32,7 +32,7 @@ Client Transaction → Primary Commit → GTID Generated → Binary Log Written 
 🏦 **Banking**
 Credit card transactions are replicated with unique GTIDs, ensuring no duplicate or missing transactions.
 
-💊 **Pharma (Pfizer, Sanofi, Takeda)**
+💊 **Pharma**
 Patient and clinical records remain synchronized across DR sites for compliance and audit requirements.
 
 🛒 **Retail & E-Commerce**
