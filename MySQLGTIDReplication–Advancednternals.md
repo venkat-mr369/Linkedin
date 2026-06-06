@@ -12,10 +12,15 @@ Instead of tracking replication using binary log file names and positions, repli
 ### Key Benefits
 
 ✅ Automatic Failover
+
 ✅ Auto-Positioning (No Manual Binlog Position Tracking)
+
 ✅ Faster Replica Recovery
+
 ✅ Cascading Replication Support
+
 ✅ Multi-Threaded Replication (MTS)
+
 ✅ Simplified Disaster Recovery
 
 ### Internal Flow
