@@ -22,8 +22,6 @@ I created this Podman Cheat Sheet covering:
 
 Whether you're a DBA, DevOps Engineer, Platform Engineer, SRE, or Cloud Architect, this quick reference can help simplify day-to-day container operations.
 
-What's your preferred container runtime today?
-
 🔹 Docker
 🔹 Podman
 🔹 containerd
