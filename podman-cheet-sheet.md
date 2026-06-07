@@ -1,5 +1,35 @@
 ### Podman Cheat Sheet
 
+🚀 Podman Cheat Sheet for DevOps & Platform Engineers
+
+If you're working with containers on RHEL, Oracle Linux, Rocky Linux, or Kubernetes environments, Podman is an essential tool to learn.
+
+Unlike Docker, Podman is daemonless, supports rootless containers, and provides enhanced security while maintaining Docker CLI compatibility.
+
+I created this Podman Cheat Sheet covering:
+
+✅ Image Management
+✅ Container Lifecycle Commands
+✅ Networking & Port Mapping
+✅ Volumes & Storage
+✅ Pods Management
+✅ Registry Login & Image Push/Pull
+✅ Build & Deploy Images
+✅ Systemd Integration
+✅ Rootless Containers
+✅ Docker vs Podman Comparison
+✅ Interview Quick Reference Commands
+
+Whether you're a DBA, DevOps Engineer, Platform Engineer, SRE, or Cloud Architect, this quick reference can help simplify day-to-day container operations.
+
+What's your preferred container runtime today?
+
+🔹 Docker
+🔹 Podman
+🔹 containerd
+🔹 CRI-O
+
+<img width="1024" height="1534" alt="podman-cheat-sheet" src="https://github.com/user-attachments/assets/ffc1abb9-b8a0-4e1c-acc2-d368466b82b4" />
 
 
 #### What is Podman?
