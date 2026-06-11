@@ -27,7 +27,7 @@ Client → Postmaster → Backend Process → Parser → Planner → Shared Buff
 
 ✅ PostgreSQL shines in complex queries, analytics, GIS, JSON, and enterprise workloads
 
-As a DBA, understanding these internal components is critical for performance tuning, troubleshooting, scalability planning, and architecture design.
+As a DBA / Database Engineer, understanding these internal components is critical for performance tuning, troubleshooting, scalability planning, and architecture design.
 
 What's your preferred database for enterprise workloads: MySQL or PostgreSQL?
 
