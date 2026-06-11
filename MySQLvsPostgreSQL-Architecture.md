@@ -4,7 +4,8 @@
 SELECT * FROM emp;
 ```
 
-here is a detailed flow suitable for interviews, YouTube videos, or training.
+<img width="1023" height="1471" alt="mysqlvspsql" src="https://github.com/user-attachments/assets/cb9f4776-f7f6-47ac-b5f2-e29bb8bcf0d7" />
+
 
 ---
 
