@@ -53,7 +53,7 @@ SELECT * FROM emp;
 Client can be:
 
 * MySQL Workbench
-* Application
+* From Application
 * mysql command line
 
 ↓
@@ -76,9 +76,9 @@ MySQL creates or assigns a thread for the connection.
 
 Components:
 
-* Parser
-* Optimizer
-* Executor
+* Parser -- Checks SQL syntax.
+* Optimizer -- Chooses the best execution plan.
+* Executor -- Executes the plan and returns data.
 
 Parser checks:
 
