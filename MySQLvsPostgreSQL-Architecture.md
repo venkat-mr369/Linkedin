@@ -320,8 +320,7 @@ Result
 Example:
 
 ```sql
-INSERT INTO emp
-VALUES (1004,'Takeda');
+INSERT INTO emp VALUES (1004,'Raja');
 ```
 
 ### MySQL
