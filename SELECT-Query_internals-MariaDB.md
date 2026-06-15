@@ -88,7 +88,7 @@ Matching Rows
 Result Set
         │
         ▼
-Client
+     Client
 ```
 
 ---
