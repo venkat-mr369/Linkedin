@@ -1,4 +1,4 @@
-### What Happens Internally When MySQL Executes a Insert & Update Statement? 
+### What Happens Internally When MySQL Executes a INSERT & UPDATE Statement? 
 
 ---- 
 For **INSERT** and **UPDATE** in MySQL (InnoDB), the flow is different from SELECT because MySQL must maintain **ACID properties**, 
