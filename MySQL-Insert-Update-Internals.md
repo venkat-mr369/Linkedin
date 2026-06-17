@@ -293,6 +293,10 @@ Dirty Page
 .ibd File
 ```
 
+<img width="1536" height="1011" alt="mysql-insert-update1" src="https://github.com/user-attachments/assets/c76a00f8-2342-4b6e-a353-7d3a00a03ee2" />
+
+
 ### Interview One-Line Answer
 
 **INSERT/UPDATE flow in MySQL InnoDB:** Client → Parser → Optimizer → InnoDB → Row Lock → Undo Log → Buffer Pool Modification → Redo Log Generation → Commit → Redo Log Flush → Background Flush of Dirty Pages to `.ibd` files.
+
