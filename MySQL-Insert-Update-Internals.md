@@ -1,4 +1,11 @@
-For **INSERT** and **UPDATE** in MySQL (InnoDB), the flow is different from SELECT because MySQL must maintain **ACID properties**, generate **Undo Logs**, **Redo Logs**, and eventually write changes to disk.
+### What Happens Internally When MySQL Executes a Insert & Update Statement? 
+
+---- 
+For **INSERT** and **UPDATE** in MySQL (InnoDB), the flow is different from SELECT because MySQL must maintain **ACID properties**, 
+generate **Undo Logs**, **Redo Logs**, and eventually write changes to disk.
+
+<img width="1536" height="1020" alt="mysql-insert-update" src="https://github.com/user-attachments/assets/2e04f02e-85c8-490a-9be5-2bac2b99c31e" />
+
 
 ---
 
@@ -7,8 +14,7 @@ For **INSERT** and **UPDATE** in MySQL (InnoDB), the flow is different from SELE
 Example:
 
 ```sql
-INSERT INTO emp(emp_id,name,salary)
-VALUES(101,'Ramya',50000);
+INSERT INTO emp(emp_id,name,salary) VALUES(101,'Ramya',50000);
 ```
 
 ### Internal Flow
@@ -170,9 +176,7 @@ salary = 50000
 Query:
 
 ```sql
-UPDATE emp
-SET salary=70000
-WHERE emp_id=101;
+UPDATE emp SET salary=70000 WHERE emp_id=101;
 ```
 
 ### Step 1: Locate Row
