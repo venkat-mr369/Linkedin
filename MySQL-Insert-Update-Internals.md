@@ -300,9 +300,9 @@ Dirty Page
 
 **INSERT/UPDATE flow in MySQL InnoDB:** Client → Parser → Optimizer → InnoDB → Row Lock → Undo Log → Buffer Pool Modification → Redo Log Generation → Commit → Redo Log Flush → Background Flush of Dirty Pages to `.ibd` files.
 
-"What happens internally when an INSERT or UPDATE is executed in MySQL InnoDB?"
+**What happens internally when an INSERT or UPDATE is executed in MySQL InnoDB?**
 
-A concise answer:
+Your answer:
 
 MySQL parses and optimizes the query, acquires locks, generates Undo Logs, modifies pages in the Buffer Pool, generates Redo Logs, commits the transaction, flushes Redo Logs to disk, and later writes dirty pages to the .ibd data files.
 
