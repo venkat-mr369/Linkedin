@@ -1,6 +1,67 @@
 ### CockroachDB Data Movement Internals (3-Node Cluster)
 
-### Cluster Architecture
+🚀 **Understanding CockroachDB Data Movement Internals (3-Node Cluster)**
+
+One of the most common interview questions for CockroachDB Database Engineers and SREs is:
+
+**"How does CockroachDB move data internally across nodes?"**
+
+Today, I explored the complete lifecycle of data movement inside a **3-node CockroachDB cluster**, from a client write request to Raft consensus, automatic replication, range splits, leaseholder transfers, and replica rebalancing.
+
+### Key Concepts Covered
+
+✅ Range-based data distribution
+
+✅ Raft Consensus and Quorum
+
+✅ Leaseholder Architecture
+
+✅ Replica Placement
+
+✅ Automatic Range Splitting
+
+✅ Replica Rebalancing
+
+✅ Leaseholder Transfer
+
+✅ Node Failure & Recovery
+
+✅ Automatic Data Rebalancing
+
+### Sample SQL Commands
+
+```sql
+SHOW CLUSTER NODES;
+
+SHOW RANGES FROM TABLE employees;
+
+SHOW RANGES;
+
+SHOW CLUSTER SETTINGS;
+```
+
+### Key Takeaways
+
+• Data is automatically divided into **Ranges**.
+
+• Each range has its own **Raft Group**.
+
+• Every range has one **Leaseholder** responsible for coordinating writes.
+
+• Writes are committed only after achieving a **quorum**, ensuring strong consistency.
+
+• As data grows, CockroachDB automatically performs **range splits**.
+
+• The cluster continuously rebalances replicas and leaseholders to optimize performance, availability, and fault tolerance.
+
+Understanding these internals is essential for anyone working as a **CockroachDB DBA, Database Engineer, Database SRE, or Database Architect**.
+
+I'm continuing to explore more distributed database internals and production scenarios. Stay tuned for upcoming deep dives!
+
+#DatabaseEngineering #DatabaseArchitect #DBA #CockroachDB #DistributedDatabase #RaftConsensus #HighAvailability #DatabaseReplication #DatabaseInternals #CloudDatabase #SRE #DatabasePerformance #Scalability #DatabaseCommunity #TechLearning #DatabaseAdministration 🚀
+
+
+### Cluster Architecture in Detail 
 
 <img width="1514" height="1009" alt="cok" src="https://github.com/user-attachments/assets/14d7d6e0-a4d2-47dd-88e4-44dbbf382ba2" />
 
