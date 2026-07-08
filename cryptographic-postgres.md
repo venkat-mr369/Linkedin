@@ -29,8 +29,8 @@ Without encryption:
 
 | Customer | Credit Card      |
 | -------- | ---------------- |
-| Ram      | 4111111111111111 |
-| Sita     | 5555555555554444 |
+| Ram      | 4111903611116564 |
+| Sita     | 5555987655554004 |
 
 Anyone with SELECT permission can read the card numbers.
 
@@ -316,7 +316,7 @@ VALUES
 1,
 'Ram',
 pgp_sym_encrypt(
-'4111111111111111',
+'4111903611116564',
 'BankKey123')
 );
 ```
@@ -326,8 +326,7 @@ pgp_sym_encrypt(
 See stored data.
 
 ```sql
-SELECT *
-FROM customer_cards;
+SELECT * FROM customer_cards;
 ```
 
 Output:
