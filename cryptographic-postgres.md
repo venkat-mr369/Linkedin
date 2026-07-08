@@ -118,9 +118,7 @@ then it is installed.
 ## Check whether it is available
 
 ```sql
-SELECT *
-FROM pg_available_extensions
-WHERE name='pgcrypto';
+SELECT * FROM pg_available_extensions WHERE name='pgcrypto';
 ```
 
 ---
@@ -136,8 +134,7 @@ CREATE EXTENSION pgcrypto;
 Verify:
 
 ```sql
-SELECT extname
-FROM pg_extension;
+SELECT extname FROM pg_extension;
 ```
 
 Output:
