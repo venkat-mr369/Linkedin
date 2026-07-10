@@ -628,3 +628,4 @@ A common enterprise backup strategy is:
 * **Table-level logical backups** before major maintenance or deployments
 * **Regular restore testing** in a non-production environment to verify backup integrity
 
+<img width="1024" height="1492" alt="backup psql" src="https://github.com/user-attachments/assets/61ec0632-6796-4a1e-a3ba-e97d4305a406" />
