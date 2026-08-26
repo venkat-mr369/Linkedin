@@ -1,5 +1,8 @@
 
-**real production scenario** and understand exactly **what happens without PgBouncer and with PgBouncer**.
+**Real production scenario** and understand exactly **what happens without PgBouncer and with PgBouncer**.
+
+<img width="1536" height="1017" alt="posg-bounce" src="https://github.com/user-attachments/assets/7f2949c4-976a-4fcf-88d7-b32be0f06d23" />
+
 
 ### Our scenario (Knowledge Base Article Only)
 
